@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Evitar subir carpetas del entorno virtual si existen dentro del proyecto
+ceciliagutierrez/Lib/
+ceciliagutierrez/Scripts/
+ceciliagutierrez/Include/
+
+# Mantener las carpetas de trabajo
+!ceciliagutierrez/dependencias/
+!ceciliagutierrez/src/
+!ceciliagutierrez/tests/
+
